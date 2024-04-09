@@ -27,15 +27,10 @@
     #如果想另外创建一个分支，<branch-name>是想设置的分支名称，可以使用以下命令：
     输入：git remote add <branch-name> <repository-url>
 
-7、每次更改本地代码后，在terminal窗口输入命令
-    输入：git push -u origin main
-    #该推送会推送到默认分支，通常是main。如果推送到另外的分支，比如此前设置的<branch-name> ，那么使用以下命令：
-    输入：git push -u origin <branch-name>
-
-8、如果在提交首次更改之后，关闭工程之前，又有了新的修改，并且不改动分支，继续沿用此前的分支，只需要输入命令：
+7、每次工程在本地编辑修改后，如果不改动分支，继续沿用此前的分支，只需要输入命令：
     输入：git add .     #全部工程暂存，准备提交，不区分哪些修改哪些没改，虽然耗时，但是安全。
-        ：git commit -m "Your new commit message"  或者：git commit 
-        # 替换Your new commit message为此次修改的原因，如果不写，直接使用git commit
+        ：git commit -m "Your new commit message"  
+        # 替换Your new commit message为此次修改的原因，必须填写，否则无法push。
         ：git push
          
 

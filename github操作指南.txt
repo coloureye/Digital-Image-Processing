@@ -29,8 +29,8 @@
 
 7、每次工程在本地编辑修改后，如果不改动分支，继续沿用此前的分支，只需要输入命令：
     输入：git add .     #全部工程暂存，准备提交，不区分哪些修改哪些没改，虽然耗时，但是安全。
-        ：git commit -m "Your new commit message"  或者：git commit 
-        # 替换Your new commit message为此次修改的原因，如果不写，直接使用git commit
+        ：git commit -m "Your new commit message"  
+        # 替换Your new commit message为此次修改的原因，必须填写，否则无法push。
         ：git push
          
 
