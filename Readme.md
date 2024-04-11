@@ -28,7 +28,8 @@
     输入：git remote add <branch-name> <repository-url>
 
 7、每次工程在本地编辑修改后，如果不改动分支，继续沿用此前的分支，只需要输入命令：
-    输入：git add .     #全部工程暂存，准备提交，不区分哪些修改哪些没改，虽然耗时，但是安全。
+    输入：git add .     
+        #请注意最后有个空格与.号。全部工程暂存，准备提交，不区分哪些修改哪些没改，虽然耗时但是安全。。
         ：git commit -m "Your new commit message"  
         # 替换Your new commit message为此次修改的原因，必须填写，否则无法push。
         ：git push
@@ -50,7 +51,7 @@
     
     
     输入：Digital-Image-Processing>docker build -t digital-image-processing .
-    #创建一个关于
+    #创建一个关于digital-image-processing的镜像，请注意该语句最后有个空格与一个点。
 
 
 
